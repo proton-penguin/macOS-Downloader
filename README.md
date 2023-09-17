@@ -52,7 +52,11 @@ git clone https://github.com/proton-penguin/macOS-Downloader.git
 ```
 
 ## 下載macOS鏡像
+(Windows用PowerShell開啟macOS-Downloader-main目錄)
+![圖片](https://github.com/proton-penguin/macOS-Downloader/assets/142492829/45bb8148-e84a-45be-ab4e-65b062a3da62)
+
 終端機 cd 到 macOS-Downloader-main 目錄
+
 ```bash
 python3 fetch-macOS.py
 ```
@@ -63,8 +67,18 @@ python3 fetch-macOS.py
 
 下載完成後，資料夾應該會有這4個檔案
 ![Screenshot from 2023-09-17 11-38-42](https://github.com/proton-penguin/macOS-Downloader/assets/142492829/79f7ccb9-9a14-4783-8b70-193557134554)
+![圖片](https://github.com/proton-penguin/macOS-Downloader/assets/142492829/8257241b-fc17-4d8c-b970-da5bdbef591c)
+
 
 ## 轉換成IMG
+### For Windows
+PowerShell cd 到 Downloads 目錄
+```powershell
+.\dmg2img-1.6.7-win32\dmg2img.exe -i .\macOS-Downloader-main\BaseSystem.dmg .\macOS-Downloader-main\BaseSystem.img
+```
+![圖片](https://github.com/proton-penguin/macOS-Downloader/assets/142492829/7e59f17d-658f-405a-b9df-18b38d6ccb19)
+
+
 ### For Linux
 ```bash
 dmg2img -i BaseSystem.dmg BaseSystem.img
