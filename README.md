@@ -1,4 +1,4 @@
-# 懶人版<macOS自動下載程式>
+# 懶人版macOS自動下載程式
 ## 使用說明
 下載並解壓縮 [此分支](https://github.com/proton-penguin/macOS-Downloader/archive/refs/heads/Windows.zip)
 
