@@ -9,7 +9,7 @@
 一切作業均自動完成
 
 待 Etcher 視窗彈出表示下載完成
-
+![](https://user-images.githubusercontent.com/142492829/268482033-5494aaa6-ccc2-4182-8ace-47959626d47d.png)
 即可使用 Etcher 製作可開機的macOS安裝媒體
 
 處理好的鏡像位於 Image 資料夾
