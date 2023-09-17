@@ -24,3 +24,6 @@
 
 ### 此時可使用 Etcher 製作可開機的macOS安裝媒體
 處理好的鏡像位於 Image 資料夾
+![圖片](https://github.com/proton-penguin/macOS-Downloader/assets/142492829/873f1d3c-0a07-45fb-9207-c99a4c88e691)
+
+
