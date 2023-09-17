@@ -73,5 +73,9 @@ dmg2img -i BaseSystem.dmg BaseSystem.img
 此時資料夾應該會有這5個檔案
 ![Screenshot from 2023-09-17 11-44-17](https://github.com/proton-penguin/macOS-Downloader/assets/142492829/976989c5-fbd7-41e6-9033-70d1e15ec457)
 
+## 刷入隨身碟
+開啟 Etcher，將 BaseSystem.img 刷入隨身碟（注意會被清除）
+![Screenshot from 2023-09-17 11-49-19](https://github.com/proton-penguin/macOS-Downloader/assets/142492829/5494aaa6-ccc2-4182-8ace-47959626d47d)
+
 
 
