@@ -1,7 +1,7 @@
 # 懶人版macOS自動下載程式
 ## 使用說明
 
-### 安裝 Python 3
+### 安裝 Python 3 
 
 ### 下載並解壓縮[此分支](https://github.com/proton-penguin/macOS-Downloader/archive/refs/heads/Windows.zip)
 
