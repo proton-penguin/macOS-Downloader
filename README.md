@@ -3,7 +3,7 @@
 
 ### 安裝 Python 3
 
-### 下載並解壓縮此分支
+### 下載並解壓縮[此分支](https://github.com/proton-penguin/macOS-Downloader/archive/refs/heads/Windows.zip)
 
 ![圖片](https://github.com/proton-penguin/macOS-Downloader/assets/142492829/1819c557-0432-492d-b145-aab1c4908d69)
 
