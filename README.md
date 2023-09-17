@@ -2,7 +2,7 @@
 ## 使用說明
 
 - 下載並解壓縮[此分支](https://github.com/proton-penguin/macOS-Downloader/archive/refs/heads/Windows.zip)
-- 安裝 Python 3 (如果你沒安裝過，請執行 Install_Python.bat)
+- 安裝 Python 3 (如果你沒安裝過，請從 [Microsoft Store](https://www.microsoft.com/store/productid/9NRWMJP3717K?ocid=pdpshare))
 
 ![圖片](https://github.com/proton-penguin/macOS-Downloader/assets/142492829/1819c557-0432-492d-b145-aab1c4908d69)
 
