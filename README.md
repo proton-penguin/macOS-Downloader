@@ -14,7 +14,13 @@ _此文僅提供安裝說明，各個程式適用其自身授權條款，與此�
 - 安裝 [Python](https://www.python.org/ftp/python/3.11.5/python-3.11.5-amd64.exe)，並將 Python 加入 PATH，如果你已經安裝 Microsoft Store 上的版本則可忽略此項
 
 ---
-
+### For macOS
+下載 [Etcher](https://github.com/balena-io/etcher/releases/download/v1.18.11/balenaEtcher-1.18.11.dmg)
+``` bash
+#下載此repository
+git clone https://github.com/proton-penguin/macOS-Downloader.git
+```
+---
 ### For Debian/Ubuntu Linux
 下載 [Etcher](https://github.com/balena-io/etcher/releases/download/v1.18.11/balenaEtcher-1.18.11-x64.AppImage)
 ``` bash
@@ -78,6 +84,9 @@ PowerShell cd 到 Downloads 目錄
 .\dmg2img-1.6.7-win32\dmg2img.exe -i .\macOS-Downloader-main\BaseSystem.dmg .\macOS-Downloader-main\BaseSystem.img
 ```
 ![圖片](https://github.com/proton-penguin/macOS-Downloader/assets/142492829/7e59f17d-658f-405a-b9df-18b38d6ccb19)
+
+### For macOS
+按照[官網的教學](https://support.apple.com/guide/disk-utility/convert-a-disk-image-to-another-format-dskutl1002/mac)，將 BaseSystem.dmg 轉換成 BaseSystem.img
 
 
 ### For Linux
