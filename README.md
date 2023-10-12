@@ -30,7 +30,7 @@ git clone https://github.com/proton-penguin/macOS-Downloader.git
 - 下載 [Etcher](https://github.com/balena-io/etcher/releases/download/v1.18.11/balenaEtcher-1.18.11-x64.AppImage)
 ```bash
 #或是你想用 wget 也行
-wget https://github.com/balena-io/etcher/releases/download/v1.18.11/balenaEtcher-1.18.11-x64.AppImage -O macOS-Downloader/Etcher.AppImage
+wget https://github.com/balena-io/etcher/releases/download/v1.18.11/balenaEtcher-1.18.11-x64.AppImage -O macOS-Downloader/balenaEtcher.AppImage
 ```
 - 安裝dmg2img
 ``` bash
