@@ -3,7 +3,8 @@
 
 _此文僅提供安裝說明，各個程式適用其自身授權條款，與此存儲庫無關_
 
-## [一鍵製作（for Windows）](https://github.com/proton-penguin/macOS-Downloader/tree/Windows)
+### 也許你會想嘗試
+[一鍵製作（for Windows）](https://github.com/proton-penguin/macOS-Downloader/tree/Windows)
 
 ## 前置作業
 
@@ -15,47 +16,37 @@ _此文僅提供安裝說明，各個程式適用其自身授權條款，與此�
 
 ---
 ### For macOS
-下載 [Etcher](https://github.com/balena-io/etcher/releases/download/v1.18.11/balenaEtcher-1.18.11.dmg)
+- 下載 [Etcher](https://github.com/balena-io/etcher/releases/download/v1.18.11/balenaEtcher-1.18.11.dmg)
+- 下載 [此 Repository](https://github.com/proton-penguin/macOS-Downloader/archive/refs/heads/main.zip) 並解壓縮
 ``` bash
-#下載此repository
 git clone https://github.com/proton-penguin/macOS-Downloader.git
 ```
 ---
-### For Debian/Ubuntu Linux
-下載 [Etcher](https://github.com/balena-io/etcher/releases/download/v1.18.11/balenaEtcher-1.18.11-x64.AppImage)
-``` bash
-#安裝dmg2img
-sudo apt -y install dmg2img
-
-#下載此repository
+### For Linux
+- clone 這個儲存庫
+```
 git clone https://github.com/proton-penguin/macOS-Downloader.git
 ```
----
-### For Fedora
-下載 [Etcher](https://github.com/balena-io/etcher/releases/download/v1.18.11/balenaEtcher-1.18.11-x64.AppImage)
+- 下載 [Etcher](https://github.com/balena-io/etcher/releases/download/v1.18.11/balenaEtcher-1.18.11-x64.AppImage)
 ```bash
-#安裝dmg2img
-sudo dnf install dmg2img -y
-
-#下載此repository
-git clone https://github.com/proton-penguin/macOS-Downloader.git
+#或是你想用 wget 也行
+wget https://github.com/balena-io/etcher/releases/download/v1.18.11/balenaEtcher-1.18.11-x64.AppImage -O macOS-Downloader/Etcher.AppImage
 ```
----
-### For Arch Linux
-下載 [Etcher](https://github.com/balena-io/etcher/releases/download/v1.18.11/balenaEtcher-1.18.11-x64.AppImage)
+- 安裝dmg2img
 ``` bash
-#安裝dmg2img
-
+#debian
+sudo apt -y install dmg2img
+```
+```bash
+#fedora
+sudo dnf install dmg2img -y
+```
+``` bash
+#arch
 sudo pacman -S git base-devel
-
 git clone https://aur.archlinux.org/dmg2img.git
-
 cd dmg2img
-
 makepkg -sri
-
-#下載此repository
-git clone https://github.com/proton-penguin/macOS-Downloader.git
 ```
 
 ## 下載macOS鏡像
