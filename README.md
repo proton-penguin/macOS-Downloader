@@ -54,10 +54,13 @@ makepkg -sri
 ```
 
 ## 下載macOS鏡像
+- 終端機 cd 到 macOS-Downloader-main 目錄
+```bash
+cd macOS-Downloader-main
+```
 (Windows用PowerShell開啟macOS-Downloader-main目錄)
 ![圖片](https://github.com/proton-penguin/macOS-Downloader/assets/142492829/45bb8148-e84a-45be-ab4e-65b062a3da62)
 
-終端機 cd 到 macOS-Downloader-main 目錄
 
 ```bash
 python3 fetch-macOS.py
